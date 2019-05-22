@@ -16,4 +16,6 @@ Une page d'administration permet aux administrateurs connectés:
 + De modifier un spawn existant.
 + De supprimer un spawn existant.
 
-C'est dans le fichier [connexion_bdd.php](.connexion_bdd.php)
+C'est dans le fichier [connexion_bdd.php](/connexion_bdd.php) que le lien avec la base de donnée est fait et enregistré dans la variable `$pdo`.
+Dans l'[index.php](/index.php), la page principale propose un spawn aléatoirement et vous pourrez l'actualiser (avec la fonction `Actualiser` du navigateur, je n'ai pas su le mettre sur le boutton `SPAWN` (noob). Depuis cette page, et grâce au bouton `ADMIN` on accède à un page de ['Login'](/login.php) où un identifiant ainsi qu'une mot de passe est demandé.
+En ayant les bons, on termine sur la [page d'administration](/administration.php) sur laquelle on peut ajouter, modifier, supprimer un spawn existant.
