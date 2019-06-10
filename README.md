@@ -15,3 +15,5 @@ Second tp bien plus complet, plusieurs page en PHP notamment une page de connexi
 Vous tirez un spawn aléatoirement, vous pourrez avoir des informations tel que son nom ainsi qu'une illustration.
 
 Un utilisateur avec les bons identifiants, un administrateur par exemple, aura accès à la page administration via la page de 'Login' où il pourra ajouter, modifier ou supprimer un spawn existant.
+
+## [TP: Pokemon, débuter la POO](/pokemon)
